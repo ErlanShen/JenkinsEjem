@@ -11,7 +11,7 @@ app.use(express.json());
 app.use('/persona', personaRoute);
 
 app.get('/', (req, res) => {
-  res.send("PRUEBAS DE JENKINS");
+  res.send("ESTA ES UNA PRUEBA DE JENKINS");
 });
 
 app.listen(port, () => {
